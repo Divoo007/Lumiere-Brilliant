@@ -1,0 +1,17 @@
+https://www.digitalocean.com/community/tutorials/how-to-add-authentication-to-your-app-with-flask-login
+
+When you reach this part:
+
+"from project import db, create_app, models
+db.create_all(app=create_app()) # pass the create_app result so Flask-SQLAlchemy gets the configuration."
+
+DO NOT DO THIS, INSTEAD GO TO VSC, CREATE A NEW FILE NAMED DB.SQLITE
+
+follow the tutorial
+
+Also, change 
+"login_user(user, remember=remember)" in auth.py to
+
+login_user(new_user, remember=remember)
+
+Thats it code shud run cope harder
