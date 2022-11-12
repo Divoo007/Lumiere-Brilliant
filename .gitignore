@@ -1,0 +1,15 @@
+
+
+# vscode
+.vscode/
+
+
+# local env
+user-authentication/env/
+
+# alembic files
+user-authentication/alembic/
+user-authentication/alembic.ini
+
+# instance db
+user-authentication/instance
